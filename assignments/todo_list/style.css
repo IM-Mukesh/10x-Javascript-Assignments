@@ -58,3 +58,15 @@ p:hover{
     color: yellow;
     cursor: pointer;
 }
+
+@media screen and (max-width:660px){
+    body{
+        background-color: rgb(142, 144, 146);
+    }
+    .container{
+        width: 98%;
+    }
+    .container input{
+        width: 90%;
+    }
+}
