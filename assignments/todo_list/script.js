@@ -12,6 +12,7 @@ addBtn.addEventListener('click',()=>{
         remove(this)
     })
     div.appendChild(p)
+    inputField.value = "";
     countToDo += 1
 })
 function remove(elem){
